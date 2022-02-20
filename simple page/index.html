@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbarf -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful world</h2>
+            <div class="line"></div>
+            <h1>WONDERFULL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1 style="padding-top: 70px;">UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corporis voluptatibus tempore
+                    voluptates, necessitatibus fuga.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corporis voluptatibus tempore
+                    voluptates, necessitatibus fuga.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <img src="" alt="">
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores numquam harum officiis tempora. Illo
+                voluptates recusandae quas fugiat numquam .</P>
+            <a href="#" class="ctn">learn more</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt eaque, commodi aut quia
+                    labore illum provident aspernatur dicta nihil voluptas, asperiores pariatur distinctio impedit?
+                    Asperiores iure accusamus maxime officia!</P>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/img3.png" alt="">
+                    <img src="images/img4.png" alt="">
+                    <img src="images/img5.png" alt="">
+                    <img src="images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatibus sequi neque, magnam voluptate
+            inventore!</p>
+        <p>copyright &#169; 2022 outdoor adventure</p>
+    </section>
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
